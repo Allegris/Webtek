@@ -8,8 +8,9 @@
 
 Username: <input type="text" id="username"> <br>
 Password: <input type="password" id="password"> <br>
-<button id="signIn">Sign in</button>
+<button id="login">Sign in</button>
 <button id="create">Create user</button>
+<div id="response"></div>
 
 <table style="border: 1px solid gray">
     <thead>
@@ -18,7 +19,7 @@ Password: <input type="password" id="password"> <br>
         <td>Price</td>
         <td>Description</td>
         <td>Stock</td>
-        <td>In Cart</td>
+        <td></td>
         <td>ID</td>
     </tr>
     </thead>
@@ -27,6 +28,10 @@ Password: <input type="password" id="password"> <br>
 
     </tbody>
 </table>
-<input type="button" value="Update table from server!" id="update">
+<input type="button" value="Buy items in cart!" id="buy">
+<div id="cartContent"></div>
+Total price: 
+<div id="totalPrice"></div>
+<div id="buyFeedback"></div>
 </body>
 </html>
